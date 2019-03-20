@@ -8,6 +8,12 @@
             "email": "jan@horde.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yunosh/phpunit-1.git"
+        }
+    ],
     "require": {
         "yunosh/phpunit-1": "*"
     }
