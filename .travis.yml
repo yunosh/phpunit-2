@@ -8,4 +8,5 @@ php:
   - 7.2
   - 7.3
   - nightly
+before_install: echo '{"github-oauth":{"github.com":"'"$GITHUB_TOKEN"'"}}' > ~/.composer/auth.json
 install: composer install --prefer-dist
