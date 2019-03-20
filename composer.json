@@ -1,0 +1,14 @@
+{
+    "name": "yunosh/phpunit-2",
+    "description": "Test User",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jan Schneider",
+            "email": "jan@horde.org"
+        }
+    ],
+    "require": {
+        "yunosh/phpunit-1": "*"
+    }
+}
