@@ -7,9 +7,9 @@ php:
   - 7.1
   - 7.2
   - 7.3
-  - nightly
 cache:
   directories:
   - $HOME/.composer/cache
-before_install: echo '{"github-oauth":{"github.com":"'"$GITHUB_TOKEN"'"}}' > ~/.composer/auth.json
+before_install:
+  - echo '{"github-oauth":{"github.com":"'"$GITHUB_TOKEN"'"}}' > ~/.composer/auth.json;
 install: composer install --prefer-dist
